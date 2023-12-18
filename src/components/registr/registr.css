@@ -1,0 +1,65 @@
+.registr_options {
+  display: flex;
+  text-overflow: bold;
+  justify-content: center;
+  background-color: white;
+  margin: 230px 500px;
+  border-radius: 20px;
+
+  justify-content: center;
+  width: 455px;
+  height: 500px;
+}
+
+.registr_container {
+  display: flex;
+  background: rgb(51, 221, 193);
+  background: linear-gradient(
+    311deg,
+    rgba(51, 221, 193, 1) 39%,
+    rgb(3, 1, 30) 100%
+  );
+  position: absolute;
+  justify-content: center;
+  width: 1440px;
+  height: 1024px;
+}
+
+.registr_title {
+  display: block;
+  text-align: center;
+  padding: 100px 10px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.registr_input {
+  border-radius: 10px;
+}
+.registr_input input {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 15px;
+  border-color: white;
+  border-style: outset;
+}
+
+.registr_input a {
+  display: flex;
+  text-decoration: none;
+  justify-content: end;
+  color: #10263c;
+  font-family: bold;
+  padding-right: 20px;
+}
+
+.button {
+  margin: 50px;
+  padding: 5px 50px;
+  border-radius: 15px;
+  color: white;
+  background: #10263c;
+}
